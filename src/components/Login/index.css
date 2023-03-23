@@ -1,0 +1,82 @@
+.login-main-container {
+  background-color: #152850;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  border-radius: 20px;
+  background-color: #e0eefe;
+  display: flex;
+  flex-direction: row;
+  width: 650px;
+  height: 500px;
+}
+
+.login-image-card {
+  padding: 20px;
+  width: 50%;
+  margin: 10px;
+}
+
+.login-image {
+  width: 320px;
+  height: 400px;
+}
+
+.login-credential-card {
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 500px;
+}
+
+.login-credential-heading {
+  color: #183b56;
+  font-family: Roboto;
+}
+
+.form-control input {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px #5a7184 solid;
+  margin: 5px;
+  font-family: Roboto;
+}
+
+.form-control label {
+  margin: 5px;
+  color: #5a7184;
+  font-weight: 600;
+}
+
+.login-btn {
+  background-color: #1565d8;
+  color: #ffffff;
+  font-family: Roboto;
+  height: 35px;
+  width: 250px;
+  border: 0;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-family: Roboto;
+  font-size: 10px;
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+.bank-main-container {
+  background-color: #152850;
+  padding: 30px;
+  height: 100vh;
+}
+
+.nav-bar-card {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.logout-btn {
+  background-color: transparent;
+  border: 1px #c3cad9 solid;
+  color: #ffffff;
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.bank-heading {
+  color: #ffffff;
+  margin: 20px;
+}
+
+.bank-body-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
